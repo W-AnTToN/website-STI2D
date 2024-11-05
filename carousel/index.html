@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Carousel Template · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">    </svg>
+
+    
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="IMG/parental.png" alt="Logo" id="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar navbar-nav mx-auto me-auto mb-2 mb-md-0 justify-content-center">
+              <li class="nav-item">
+                <a class="animation-grey nav-link active" aria-current="page" href="origine.html">Origine</a>
+              </li>
+              <li class="nav-item">
+                <a class="animation nav-link" href="evolution.html">Évolution</a>
+              </li>
+              <li class="nav-item">
+                <a class="animation-grey nav-link active" href="artiste.html">Artiste</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<main>
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+                  <!-- SLIDE 1-->
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet" focusable="false">
+            <rect width="100%" height="100%" fill="black"/>
+            <defs>
+                <pattern id="imgSLIDE1" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                    <image href="IMG/SLIDE-1.jpg" x="0" y="0" width="130%" height="120%" preserveAspectRatio="xMidYMid meet" />
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#imgSLIDE1)" />
+        </svg>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="white">Origine du Rap</h1>
+            <p class="white opacity-75">Tout savoir sur l'origine du rap</p>
+            <p><a class="grey btn btn-lg btn-primary" href="origine.html">EN SAVOIR PLUS</a></p>
+          </div>
+        </div>
+      </div>
+
+        <!-- SLIDE 2-->
+
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="black"/>
+            <defs>
+                <pattern id="imgSLIDE2" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                    <image href="IMG/SLIDE-2.png" x="0" y="0" width="100%" height="110%" preserveAspectRatio="xMidYMid meet" />
+               </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#imgSLIDE2)" />
+        </svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="white">L'évolution du rap</h1>
+            <p class="white opacity-75">dans les cotées les plus sombre du rap</p>
+            <p><a class="grey btn btn-lg btn-primary" href="evolution.html">EN SAVOIR PLUS</a></p>
+          </div>
+        </div>
+      </div>
+
+        <!-- SLIDE 3-->
+
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="black"/>
+            <defs>
+                <pattern id="imgSLIDE3" patternUnits="userSpaceOnUse" width="100%" height="120%">
+                    <image href="IMG/SLIDE-3.png" x="0" y="0" width="50%" height="100%" preserveAspectRatio="xMidYMid meet" />
+               </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#imgSLIDE3)"/>
+        </svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="white">Les artistes Clées</h1>
+            <p class="white">Retrouver les acteurs principaux du rap français</p>
+            <p><a class="grey btn btn-lg btn-primary" href="artiste.html">EN SAVOIR PLUS</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel 
+     =============================================== -->
+    <div class="row">
+      
+        <!-- HEADING 1-->
+
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="black"/>
+          <defs>
+              <pattern id="imgLAFEVE" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                  <image href="IMG/HEADING/LAFEVE.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+             </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#imgLAFEVE)"/>
+      </svg>
+        <h2 class="fw-normal">LA FEVE</h2>
+        <p>Jeune prodige du rap français, entre mélancolie et ambition.</p>
+        <p><a class="btn btn-secondary" href="#">EN SAVOIR PLUS &raquo;</a></p>
+      </div>
+
+              <!-- HEADING 2-->
+
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="black"/>
+          <defs>
+              <pattern id="imgORELSAN" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                  <image href="IMG/HEADING/ORELSAN.jpeg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+             </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#imgORELSAN)"/>
+      </svg>
+        <h2 class="fw-normal">ORELSAN</h2>
+        <p>Artiste aux textes tranchants, reflet de la société moderne.</p>
+        <p><a class="btn btn-secondary" href="#">EN SAVOIR PLUS &raquo;</a></p>
+      </div>
+
+              <!-- HEADING 3-->
+
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="black"/>
+          <defs>
+              <pattern id="imgNTM" patternUnits="userSpaceOnUse" width="100%" height="100%">
+                  <image href="IMG/HEADING/NTM.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+             </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#imgNTM)"/>
+      </svg>
+        <h2 class="fw-normal">NTM</h2>
+        <p>Le duo légendaire du rap français, rebelle <br>
+        et engagé.</p>
+        <p><a class="btn btn-secondary" href="#">EN SAVOIR PLUS &raquo;</a></p>
+      </div>
+    </div>
+
+
+    <!-- START THE FEATURETTES 
+     =============================================== -->
+
+    <!--POCHETTE 1-->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">L'École du Micro d'Argent<span class="text-body-secondary">- IAM (1997) </span></h2>
+        <p class="lead">Un classique intemporel, où IAM allie profondeur et musicalité avec des morceaux phares comme Demain, c'est loin.</p>
+        <p class="lead">Pionnier du rap français, ce groupe marseillais, avec L’École du Micro d’Argent, allie mythologie et critiques sociales.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="black"/>
+          <defs>
+              <pattern id="imgIAM" patternUnits="userSpaceOnUse" width="100%" height="120%">
+                  <image href="IMG/POCHETTE/IAM.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+             </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#imgIAM)"/>
+      </svg>
+      </div>
+    </div>
+
+        <!--POCHETTE 2-->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Feu <span class="text-body-secondary"> – Nekfeu (2015)</span></h2>
+        <p class="lead">Premier album solo de Nekfeu, acclamé pour ses textes profonds et sa créativité, avec des morceaux comme On verra</p>
+        <p class="lead">Rappeur parisien au style poétique et introspectif, il se révèle en solo avec l’album Feu, un succès marquant du rap moderne.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="black"/>
+          <defs>
+              <pattern id="imgNEKFEU" patternUnits="userSpaceOnUse" width="100%" height="120%">
+                  <image href="IMG/POCHETTE/NEKFEU.jpg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+             </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#imgNEKFEU)"/>
+      </svg>
+      </div>
+    </div>
+
+        <!--POCHETTE 3-->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Deux frères<span class="text-body-secondary"> – PNL (2019)</span></h2>
+        <p class="lead">Un album qui mêle mélancolie et introspection, avec une ambiance unique et des titres forts comme Au DD.</p>
+        <p class="lead">Duo de frères de Corbeil-Essonnes, ils créent un univers mélancolique et unique, indépendants des médias, avec Deux frères comme album emblématique.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="black"/>
+          <defs>
+              <pattern id="imgPNL" patternUnits="userSpaceOnUse" width="100%" height="120%">
+                  <image href="IMG/POCHETTE/PNL.jpeg" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+             </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#imgPNL)"/>
+      </svg>>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Retourner en haut</a></p>
+    <p>&copy; 2024–2025 Lycée Borda &middot; <a href="https://github.com/W-AnTToN">JOUCLA RUSSO ANTTON GIT HUB</a></p>
+  </footer>
+</main>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    </body>
+</html>
