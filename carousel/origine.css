@@ -25,6 +25,12 @@ body {
       background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
 }
 
+h1 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+
 .cover-container {
   max-width: 42em;
 }
@@ -43,7 +49,8 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: white;
+  border-bottom-color: rgba(0, 0, 0, 0.20);
+  color: rgba(0, 0, 0, 0.20);
 }
 
 .nav-masthead .nav-link + .nav-link {
