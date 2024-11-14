@@ -1,28 +1,22 @@
-/*
- * Globals
- */
 
-
-/* Custom default button */
+/* BOUTON PAR DEFAUT */
 .btn-light,
 .btn-light:hover,
 .btn-light:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
 }
 
-
-/*
- * Base structure
- */
+/* GLOBAL */
 
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
   background-image: url('IMG/ORIGINE/FOND.png');
   background-size: cover; /* Pour couvrir tout l'écran */
-      background-position: center; /* Pour centrer l'image */
-      background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+  background-position: center; /* Pour centrer l'image */
+  background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+  font-size: inherit;
 }
 
 h1 {
@@ -36,9 +30,7 @@ h1 {
 }
 
 
-/*
- * Header
- */
+/*NAVBAR*/
 
 .nav-masthead .nav-link {
   color: white;
@@ -63,16 +55,18 @@ h1 {
 }
 
 
+/* LOGO PARENTAL */
+
 .logo-independant {
-  position: absolute; /* Positionnement absolu */
-  top: 0; /* Aligné en haut */
-  left: 0; /* Aligné à gauche */
-  z-index: 1000; /* S'assure que le logo est au-dessus des autres éléments */
-  height: 80px; /* Hauteur fixe pour le logo */
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 1000;
+  height: 80px;
   width: auto;
   margin: 10px;
 }
 
 .header {
-  position: relative; /* Positionnement relatif pour le conteneur */
+  position: relative; 
 }

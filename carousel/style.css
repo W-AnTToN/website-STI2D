@@ -1,66 +1,62 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+
 
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
   background-color: #111111;
+  font-size: inherit;
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
+/* CAROUSEL GENERAL
 -------------------------------------------------- */
 
-/* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+
 .carousel-item {
   height: 32rem;
 }
 
 
-/* MARKETING CONTENT
+/*CARROUSSEL FEATURES
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
+/* TEXTE */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-/* rtl:begin:ignore */
+
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-/* rtl:end:ignore */
+
 
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0; 
 }
 
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
+
 .featurette-heading {
   letter-spacing: -.05rem;
 }
 
-/* rtl:end:remove */
 
-/* RESPONSIVE CSS
+/* RESPONSIVE CSS CARROUSEL
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
@@ -83,8 +79,16 @@ body {
 }
 
 
- /*nav bar custom*/
+ /*NAV BAR CUSTOM*/
 
+ .navbar{
+  background-color: #111111;
+}
+
+.nav-item {
+  font-size: 40px;
+  margin: 0 15px;
+}
 
 .animation {
     background-color : #111111;
@@ -117,7 +121,7 @@ background-color :#262625;
   color:white;
 }
 
-/* cARROUSSEL */
+/* CARROUSSEL CUSTOM*/
 
 .carousel-indicators button {
   background-color: white !important; /* Force la couleur de fond en blanc */
@@ -157,10 +161,6 @@ background-color :#262625;
 }
 
 
-.navbar{
-  background-color: #111111;
-}
-
 .btn-secondary {
   background-color: #222222;
   border-radius: 5p;
@@ -170,9 +170,4 @@ background-color :#262625;
 .btn-secondary:hover {
   background-color: #353535;
   border-color: #353535;
-}
-
-.nav-item {
-  font-size: 40px;
-  margin: 0 15px;
 }

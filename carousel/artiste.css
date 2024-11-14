@@ -1,3 +1,9 @@
+body {
+    font-size: inherit;
+}
+
+/*PERMET SIMPLEMENT LA DEFINITION DES IMAGES */
+
 .card-img {
     width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
     height: 100px; /* Définissez la hauteur souhaitée */
